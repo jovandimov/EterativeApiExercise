@@ -1,0 +1,57 @@
+GET http://localhost:5009/api/blogs
+
+###
+GET http://localhost:5009/api/blogs/665460641b58d07c72aea5b7
+
+###
+
+POST http://localhost:5009/api/blogs
+Content-Type: application/json
+
+{
+    "Title": "test",
+    "Text": "test text text",
+    "ReletadBlogs" : ["665460641b58d07c72aea5b7","665460641b58d07c72aea5b8"]
+}
+
+###
+
+PUT http://localhost:5009/api/blogs/66548682871e55f3948c77ee
+Content-Type: application/json
+
+{
+    "Id": "66548682871e55f3948c77ee",
+    "Title": "changed",
+    "Text": "changed"
+}
+
+###
+
+DELETE http://localhost:5009/api/blogs/665485e83d1800bc3da4218c
+
+###
+
+GEt http://localhost:5009/api/blogs/66548682871e55f3948c77ee/relatedBlogs
+
+###
+
+POST http://localhost:5009/api/blogs/665460641b58d07c72aea5b8/relatedBlogs
+Content-Type: application/json
+
+ ["665460641b58d07c72aea5b7"]
+
+
+###
+
+PUT http://localhost:5009/api/blogs/665460641b58d07c72aea5b8/relatedBlogs
+Content-Type: application/json
+
+ ["665460641b58d07c72aea5b8"]
+
+
+###
+
+DELETE http://localhost:5009/api/blogs/665460641b58d07c72aea5b8/relatedBlogs
+Content-Type: application/json
+
+ ["665460641b58d07c72aea5b8"]
