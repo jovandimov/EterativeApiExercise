@@ -1,6 +1,10 @@
 using MongoDB.Driver;
 using BlogApi.Core.Entities;
 using BlogApi.Settings;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace BlogApi.Infrastructure.Migrations
 {

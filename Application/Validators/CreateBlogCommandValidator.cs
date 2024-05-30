@@ -1,6 +1,6 @@
-
 using BlogApi.Application.Commands;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 
 public class CreateBlogCommandValidator : AbstractValidator<CreateBlogCommand>
 {

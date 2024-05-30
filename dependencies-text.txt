@@ -1,0 +1,20 @@
+dotnet add package MongoDB.Driver
+dotnet add package FluentValidation
+dotnet add package FluentValidation.AspNetCore
+dotnet add package MediatR
+dotnet add package AutoMapper
+
+
+dotnet add package xunit
+dotnet add package xunit.runner.visualstudio
+dotnet add package FluentAssertions
+dotnet add package Microsoft.AspNetCore.Mvc.Testing
+
+
+builder.Services.AddControllers()
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateBlogCommandValidator>());
+
+
+
+///TEXT -> xunit - dependency is added in BlogApi.csproj because it was not recognising xunit inside BlogApi/Tests folder...
+   

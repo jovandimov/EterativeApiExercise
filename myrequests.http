@@ -27,7 +27,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5009/api/blogs/665485e83d1800bc3da4218c
+DELETE http://localhost:5009/api/blogs/6658e3abde2dd90da75c83ca
 
 ###
 

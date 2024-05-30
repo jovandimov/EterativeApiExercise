@@ -1,5 +1,7 @@
 using BlogApi.Application.Commands;
 using FluentValidation;
+using FluentValidation.AspNetCore;
+
 
 public class DeleteBlogCommandValidator : AbstractValidator<DeleteBlogCommand>
 {

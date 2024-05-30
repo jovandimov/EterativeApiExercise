@@ -1,4 +1,5 @@
 using BlogApi.Core.Entities;
+using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
 namespace BlogApi.Settings

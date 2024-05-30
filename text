@@ -1,5 +1,0 @@
-dotnet add package MongoDB.Driver
-dotnet add package FluentValidation
-dotnet add package FluentValidation.AspNetCore
-dotnet add package MediatR
-dotnet add package AutoMapper
