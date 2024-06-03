@@ -1,0 +1,7 @@
+/bin/
+/obj/
+
+/BlogApi.Tests/bin/
+/BlogApi.Tests/obj/
+
+.vscode/
